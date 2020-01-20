@@ -27,9 +27,9 @@ function App() {
             </div>
             <div className="Pizza-size">
               <div className="Pizza-size-inner">
-                <div className="Svg-container">
+                {/* <div className="Svg-container"> */}
                   <MediumPie />
-                </div>
+                {/* </div> */}
               </div>
               <p className="Size-name">MEDIUM</p>
               <InputButton type="medium" />
